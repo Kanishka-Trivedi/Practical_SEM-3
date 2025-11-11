@@ -10,7 +10,7 @@ public class Fibonacci {
         System.out.println("Fibonacci Series up to " + n + " terms:");
 
         for (int i = 1; i <= n; ++i) {
-            System.out.print(a + " ");
+            System.out.print(a + " ");+
 
             int temp = a + b;
             a = b;
